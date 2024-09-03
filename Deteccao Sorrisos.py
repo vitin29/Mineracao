@@ -47,6 +47,7 @@ for (x, y, w, h) in faces:  # Loop através de cada face detectada.
     # Desenha um retângulo azul ao redor de cada face detectada.
 
 # Exibir a imagem com as detecções
+cv2.namedWindow('Deteccao de Face e Sorriso', cv2.WINDOW_NORMAL)
 cv2.imshow('Deteccao de Face e Sorriso', image)
 # Exibe a imagem em uma nova janela intitulada 'Deteccao de Face e Sorriso', mostrando as detecções feitas.
 
